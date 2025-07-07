@@ -232,8 +232,8 @@ h1 {
 	justify-content: center;
 	align-items: center;
 	border-radius: 0px 0px 10px 10px;
-	border-left: 12px solid #ffffff;
-	border-bottom: 12px solid #ffffff;
+	border-left: 10px solid #ffffff;
+	border-bottom: 10px solid #ffffff;
 	background-image: url('/images/143fe04f2df742bd1344262ce2d5c684.png');
 	background-size: cover;
 	background-position: center;
@@ -264,8 +264,8 @@ h1 {
 
 .circle{
 	z-index: 3;
-	width: 100px;
-	height: 100px;
+	width:140px;
+	height: 140px;
 	border-radius: 50%;
 	background-color: transparent;
 	display: flex;
@@ -273,7 +273,21 @@ h1 {
 	align-items: center;
 	position: absolute;
 	right: 36%;
-	bottom: -95px;
+	bottom: -96px;
+	border: 8px solid #ffffff;
+}
+.circle2{
+	z-index: 3;
+	width: 140px;
+	height: 140px;
+	border-radius: 50%;
+	background-color: transparent;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	right: 33%;
+	bottom: -58px;
 	border: 8px solid #ffffff;
 }
 
@@ -367,6 +381,9 @@ h1 {
 
 @media (max-width: 1024px) {
 	.circle{
+		display: none;
+	}
+	.circle2{
 		display: none;
 	}
 	.container{
