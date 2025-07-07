@@ -366,6 +366,9 @@ h1 {
 
 
 @media (max-width: 1024px) {
+	.circle{
+		display: none;
+	}
 	.container{
 		max-width: 800px;
 	}
