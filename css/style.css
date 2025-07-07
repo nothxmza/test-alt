@@ -1,0 +1,431 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  font-family: poppins, sans-serif;
+}
+
+h1 {
+ 	color: #29ABB7;
+   font-family: "Kalam", cursive;
+	font-weight: 400;
+	font-size: 42px;
+	margin: 0;
+}
+.header-page p{
+	color: #575757;
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	margin: 0;
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 50px auto;
+}
+
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.card{
+	display: flex;
+	height: 371px;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	border-radius: 10px;
+	overflow: hidden;
+	align-items: flex-end;
+}
+
+.card-content{
+	display: flex;
+	flex-direction: column;
+	color: #fff;
+	padding: 20px;
+	gap: 8px;
+}
+
+.header-card{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	gap: 10px;
+}
+
+.card-content h2 {
+	font-size: 16px;
+	margin: 0;
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
+}
+.card-content p {
+	font-size: 12px;
+	margin: 0;
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
+}
+
+.stars{
+	display: flex;
+	gap: 5px;
+}
+.icon-star{
+	width: 16px;
+	height: 16px;
+	background-size: cover;
+}
+
+
+.mask-australie{
+	border-radius: 10px;
+    background: linear-gradient(0deg, #4e3204 0%, rgba(216,216,216,0) 100%);
+	width: 100%;
+}
+.mask-maldives{
+	border-radius: 10px;
+	background: linear-gradient(0deg, #741305 0%, rgba(216,216,216,0) 100%);
+	width: 100%;
+}
+.mask-tanzanie{
+	border-radius: 10px;
+	 background: linear-gradient(0deg, #4e3204 0%, rgba(216,216,216,0) 100%);
+	width: 100%;
+}
+.mask-thailande{
+	border-radius: 10px;
+	background: linear-gradient(0deg, #368e8c 0%, rgba(216,216,216,0) 100%);
+	width: 100%;
+}
+
+.australie{
+	background-image:  url('../images/australie.png');
+}
+.maldives{
+	background-image:  url('../images/maldives.png');
+}
+.tanzanie{
+	background-image:  url('../images/tanzanie.png');
+}
+.thailande{
+	background-image:  url('../images/thailande.png');
+}
+
+
+.wrap-info{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.wrap-info h1{
+	font-family: "Kalam", cursive;
+	font-weight: 400;
+	margin: 0;
+}
+.wrap-info p{
+	color: #575757;
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	margin: 0;
+}
+
+.header-info{
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.info-grid{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+	height: 100%;
+}
+
+
+.info-item-wrap{
+	display: flex;
+	gap: 40px
+}
+
+.info-content h3{
+	font-size: 14px;
+	margin: 0;
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+	color: #29ABB7;
+}
+.info-content p{
+	font-size: 14px;
+	margin: 0;
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	color: #575757;
+}
+
+.item-right .info-content{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.item-left{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	height: 100%;
+}
+.item-left a{
+	font-size: 12px;
+	color: #29ABB7;
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+}
+
+.item-right{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	justify-content: space-between;
+}
+
+
+.div-left{
+	width: 60%;
+	height: 100%;
+	background-color: #29ABB7;
+	display: flex;
+	transform: translateY(90px);
+	position: relative;
+  z-index: 1;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.devis{
+	margin-top: 50px
+}
+
+.wrap-devis{
+	display: flex;
+	position: relative;
+	width: 100%;
+	height: 350px;
+}
+
+.div-right{
+	width: 50%;
+	height: 350px;
+	background-color: blue;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 0px 0px 10px 10px;
+	border-left: 12px solid #ffffff;
+	border-bottom: 12px solid #ffffff;
+	background-image: url('/images/143fe04f2df742bd1344262ce2d5c684.png');
+	background-size: cover;
+	background-position: center;
+}
+
+.div-left h2{
+	font-family: "Kalam", cursive;
+	font-size: 36px;
+	color: #ffffff;
+	margin: 0;
+	font-weight: 400;
+	max-width: 60%;
+	line-height: 40px;
+}
+
+.div-left p{
+	font-size: 14px;
+	color: #ffffff;
+	margin: 0;
+	max-width: 50%;
+}
+
+.div-left-content{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.div-left-content button{
+	width: 200px;
+	height: 40px;
+	border-radius: 20px;
+	border: 1px solid #ffffff;
+	background-color: transparent;
+	color: white;
+}
+
+.wrap-list{
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	margin-top: 120px;
+}
+
+.header-list{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.header-list p {
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	color: #575757;
+	margin: 0;
+	font-size: 14px;
+}
+
+.list-content{
+	display: flex;
+	gap: 20px;
+}
+.list-text{
+	display: flex;
+	flex-direction: column;
+	justify-content: center
+}
+.list-text h3{
+	font-family: poppins, sans-serif;
+	font-weight: 500;
+	font-size: 22px;
+	color: #29ABB7;
+	margin: 0;
+}
+.list-text p{
+	font-family: poppins, sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #575757;
+	margin: 0;
+}
+
+.grid-list{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 20px;
+}
+
+.wrap-list button{
+	width: 200px;
+	height: 40px;
+	border-radius: 20px;
+	border: 1px solid #29ABB7;
+	background-color: transparent;
+	color: #575757;
+}
+
+
+
+/* responsive */
+
+
+@media (max-width: 1200px) {
+	.container{
+		max-width: 1000px;
+	}
+	.card-grid {
+		grid-template-columns: repeat(2, 1fr);
+		gap: 15px;
+	}
+}
+
+
+@media (max-width: 1024px) {
+	.container{
+		max-width: 800px;
+	}
+  .card-grid {
+    grid-template-columns: repeat(2, 1fr);
+	gap: 10px;
+  }
+  .info-grid {
+	grid-template-columns: 1fr;
+  }
+  .div-right{
+	display: none;
+  }
+  .div-left{
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	transform: translateX(0);
+
+  }
+  .div-left-content{
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+  }
+  .div-left h2{
+	max-width: none;
+  }
+  .div-left p{
+	max-width: none;
+  }
+  .list-content img{
+	width: 120px;
+	height: 120px;
+  }
+  .wrap-list{
+	margin-top: 0
+  }
+  .header-list{
+	text-align: center;
+  }
+}
+
+@media (max-width: 800px) {
+	.container{
+        padding: 0 16px;
+        max-width: none;
+        width: auto;
+        box-sizing: border-box;
+    }
+	.card-grid {
+		grid-template-columns: 1fr;
+		gap: 10px;
+	}
+	.grid-list {
+		grid-template-columns: 1fr;
+	}
+	.item-left img{
+		width: 100%;
+		height: auto;
+	}
+	.list-content img{
+		width: 100px;
+		height: 100px;
+	}
+	.info-item-wrap img{
+		width: 100px;
+		height: 100px;
+	}
+	h1{
+		font-size: 32px;
+	}
+	.div-left-content{
+		text-align: center;
+	}
+	.header-info{
+		margin-bottom: 20px
+	}
+}
