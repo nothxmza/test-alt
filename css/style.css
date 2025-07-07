@@ -1,13 +1,13 @@
 body {
-  margin: 0;
-  padding: 0;
-  background-color: #ffffff;
-  font-family: poppins, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #ffffff;
+	font-family: poppins, sans-serif;
 }
 
 h1 {
  	color: #29ABB7;
-   font-family: "Kalam", cursive;
+   	font-family: "Kalam", cursive;
 	font-weight: 400;
 	font-size: 42px;
 	margin: 0;
@@ -19,16 +19,16 @@ h1 {
 	margin: 0;
 }
 .container {
-  width: 100%;
-  max-width: 1200px;
-  margin: 50px auto;
+	width: 100%;
+	max-width: 1200px;
+	margin: 50px auto;
 }
 
 
 .card-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 20px;
 }
 
 .card{
@@ -83,7 +83,7 @@ h1 {
 
 .mask-australie{
 	border-radius: 10px;
-    background: linear-gradient(0deg, #4e3204 0%, rgba(216,216,216,0) 100%);
+	background: linear-gradient(0deg, #4e3204 0%, rgba(216,216,216,0) 100%);
 	width: 100%;
 }
 .mask-maldives{
@@ -202,7 +202,7 @@ h1 {
 	display: flex;
 	transform: translateY(90px);
 	position: relative;
-  z-index: 1;
+  	z-index: 1;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
@@ -353,53 +353,52 @@ h1 {
 	.container{
 		max-width: 800px;
 	}
-  .card-grid {
-    grid-template-columns: repeat(2, 1fr);
-	gap: 10px;
-  }
-  .info-grid {
-	grid-template-columns: 1fr;
-  }
-  .div-right{
-	display: none;
-  }
-  .div-left{
-	width: 100%;
-	align-items: center;
-	justify-content: center;
-	transform: translateX(0);
-
-  }
-  .div-left-content{
-	width: 100%;
-	align-items: center;
-	justify-content: center;
-  }
-  .div-left h2{
-	max-width: none;
-  }
-  .div-left p{
-	max-width: none;
-  }
-  .list-content img{
-	width: 120px;
-	height: 120px;
-  }
-  .wrap-list{
-	margin-top: 0
-  }
-  .header-list{
-	text-align: center;
-  }
+	.card-grid {
+		grid-template-columns: repeat(2, 1fr);
+		gap: 10px;
+	}
+	.info-grid {
+		grid-template-columns: 1fr;
+	}
+	.div-right{
+		display: none;
+	}
+	.div-left{
+		width: 100%;
+		align-items: center;
+		justify-content: center;
+		transform: translateX(0);
+	}
+	.div-left-content{
+		width: 100%;
+		align-items: center;
+		justify-content: center;
+	}
+	.div-left h2{
+		max-width: none;
+	}
+	.div-left p{
+		max-width: none;
+	}
+	.list-content img{
+		width: 120px;
+		height: 120px;
+	}
+	.wrap-list{
+		margin-top: 0
+	}
+	.header-list{
+		text-align: center;
+	}
 }
 
 @media (max-width: 800px) {
 	.container{
-        padding: 0 16px;
-        max-width: none;
-        width: auto;
-        box-sizing: border-box;
-    }
+		padding: 0 16px;
+		max-width: none;
+		width: auto;
+		box-sizing: border-box;
+	}
 	.card-grid {
 		grid-template-columns: 1fr;
 		gap: 10px;
